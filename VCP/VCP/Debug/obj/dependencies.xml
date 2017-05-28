@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1) /I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\cdc /I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib /I..\..\..\workspace\VCP\cmsis_lib\include /I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf /I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master /I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core /I..\..\..\workspace\VCP /I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg /I..\..\..\workspace /I..\..\..\workspace\VCP\cmsis_lib /I..\..\..\workspace\VCP\cmsis_boot /I..\..\..\workspace\VCP\cmsis">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15be9850710">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_core.c" lastModified="15be810a356">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_core.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="15be97fdcd1">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd_int.h" lastModified="15be810a409">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_core.h" lastModified="15be810a28e">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_def.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd_int.c" lastModified="15be810a3da">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_conf.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd_int.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15be97fdcd1">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_core.c" lastModified="15be810a268">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_core.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_req.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_ioreq.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd_int.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15be9850053">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd.h" lastModified="15be810a3bb">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="15be9850051">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd.c" lastModified="15be810a395">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_conf.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_desc.h" lastModified="15be810a1a0">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\cdc\usbd_cdc_vcp.h" lastModified="15be810a631">
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\cdc\usbd_cdc_core.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_regs.h" lastModified="15be810a42e">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_desc.c" lastModified="15be810a190">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_core.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_desc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_req.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_conf.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_regs.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="15be97f8aa0">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\cdc\usbd_cdc_vcp.c" lastModified="15be810a229">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\cdc\usbd_cdc_vcp.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="15be97f8a90">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="15be97f8a5b">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_bsp.h" lastModified="15be810a11c">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_core.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_defines.h" lastModified="15be810a41f">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_conf.h" lastModified="15be810a13c">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_usr.h" lastModified="15be810a321">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_bsp.c" lastModified="15be810a10d">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_bsp.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_conf.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_usr.c" lastModified="15be810a1c5">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_usr.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="15be9850b5d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="15be9850710">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="15be97fd4a6">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="15be97f8aa0">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_conf.h" lastModified="15be810a14b">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_req.h" lastModified="15be810a311">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_def.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_core.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="15be98531b3">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15be98531c3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_req.c" lastModified="15be810a2f2">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_req.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_ioreq.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_desc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_def.h" lastModified="15be810a2ad">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\cdc\usbd_cdc_core.h" lastModified="15be810a204">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_ioreq.h" lastModified="15be810a2dc">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_def.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\cdc\usbd_cdc_core.c" lastModified="15be810a1e5">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\cdc\usbd_cdc_core.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_desc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_req.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="15be97f8a81">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_ioreq.c" lastModified="15be810a2cc">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="15be97f8689">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_core.h" lastModified="15be810a376">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_conf.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_regs.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15be97f8663">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15be97f8689">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="15be9850b5d">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1) /I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\cdc /I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib /I..\..\..\workspace\VCP\cmsis_lib\include /I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf /I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master /I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core /I..\..\..\workspace\VCP /I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg /I..\..\..\workspace /I..\..\..\workspace\VCP\cmsis_lib /I..\..\..\workspace\VCP\cmsis /I..\..\..\workspace\VCP\cmsis_boot">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15be9850710">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_core.c" lastModified="15be810a356">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_core.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="15be97fdcd1">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd_int.h" lastModified="15be810a409">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_core.h" lastModified="15be810a28e">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_def.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd_int.c" lastModified="15be810a3da">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_conf.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd_int.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15be97fdcd1">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_core.c" lastModified="15be810a268">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_core.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_req.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_ioreq.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd_int.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15be9850053">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd.h" lastModified="15be810a3bb">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_core.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="15be9850051">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd.c" lastModified="15be810a395">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_conf.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_dcd.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_bsp.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_desc.h" lastModified="15be810a1a0">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_def.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_regs.h" lastModified="15be810a42e">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_desc.c" lastModified="15be810a190">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_core.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_desc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_req.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_conf.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_regs.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\cdc\usbd_cdc_vcp.c" lastModified="15be810a229">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\cdc\usbd_cdc_vcp.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_bsp.h" lastModified="15be810a11c">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_core.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_defines.h" lastModified="15be810a41f">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_conf.h" lastModified="15be810a13c">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_usr.h" lastModified="15be810a321">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_bsp.c" lastModified="15be810a10d">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_bsp.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_conf.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_usr.c" lastModified="15be810a1c5">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_usr.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="15be9850b5d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="15be9850710">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_conf.h" lastModified="15be810a14b">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_req.h" lastModified="15be810a311">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_def.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_core.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="15be98531b3">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15be98531c3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_req.c" lastModified="15be810a2f2">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_req.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_ioreq.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_desc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_def.h" lastModified="15be810a2ad">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\cdc\usbd_cdc_core.h" lastModified="15be810a204">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_ioreq.h" lastModified="15be810a2dc">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_def.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_core.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\cdc\usbd_cdc_core.c" lastModified="15be810a1e5">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\cdc\usbd_cdc_core.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usbd_desc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_req.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_ioreq.c" lastModified="15be810a2cc">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\core\usbd_ioreq.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="15be97f8689">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_core.h" lastModified="15be810a376">
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_conf\usb_conf.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_regs.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\STM32DiscoveryVCP-master (1)\STM32DiscoveryVCP-master\usb_lib\otg\usb_defines.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15be97f8663">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15be97f8689">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="15be9850b5d">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+   </includePath>
+</dependencies>

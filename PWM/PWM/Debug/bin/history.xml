@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=PWM.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\PWM -TC:\CooCox\CoIDE\configuration\ProgramData\PWM/arm-gcc-link.ld -g">
+      <target file="PWM.elf" lastModified="15bf90d3869">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15b06ea115c"/>
+         <source file="..\obj\main.o" lastModified="15bf90d302c"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15b06ea1456"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15b06ea1516"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15b06ea15c2"/>
+         <source file="..\obj\misc.o" lastModified="15b06ea1671"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15b06ea17a0"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=TIMER.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\TIMER -TC:\CooCox\CoIDE\configuration\ProgramData\TIMER/arm-gcc-link.ld -g">
+      <target file="TIMER.elf" lastModified="15b018dbe92">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15aec0bba50"/>
+         <source file="..\obj\main.o" lastModified="15b018dbb65"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15aec0bbbd7"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15aec0bbc92"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15aec0bbd2e"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15aec0bbe57"/>
+      </target>
+   </processor>
+</history>

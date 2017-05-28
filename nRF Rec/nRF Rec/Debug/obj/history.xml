@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\nRF Rec\cmsis -I..\..\..\workspace\nRF Rec\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\nRF Rec\cmsis_lib\include -I..\..\..\workspace\nRF Rec\cmsis_lib -I..\..\..\..\..\Users\Vibhuti Singhania -I..\..\..\..\..\Users\Vibhuti Singhania\Downloads -I..\..\..\..\..\Users -I..\..\..\workspace\nRF Rec">
+      <target file="stm32f4xx_gpio.o" lastModified="15c2c1a4180">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15c2c191088"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15c2c1a4229">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15c2c1906f8"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15c2c1a3d79">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15c2c1906cb"/>
+      </target>
+      <target file="tm_stm32f4_gpio.o" lastModified="15c2c1a43e7">
+         <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\tm_stm32f4_gpio.c" lastModified="15c16b364c1"/>
+      </target>
+      <target file="main.o" lastModified="15c2d20a6c1">
+         <source file="..\..\..\main.c" lastModified="15c2d20a35a"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="15c2c1a430a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="15c2c19171c"/>
+      </target>
+      <target file="tm_stm32f4_spi.o" lastModified="15c2c1a40af">
+         <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\tm_stm32f4_spi.c" lastModified="15c16b37c72"/>
+      </target>
+      <target file="tm_stm32f4_nrf24l01.o" lastModified="15c2c1a3ccb">
+         <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\tm_stm32f4_nrf24l01.c" lastModified="15c16b99bd6"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15c2c1a3f8a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15c2c1906a5"/>
+      </target>
+   </processor>
+</history>

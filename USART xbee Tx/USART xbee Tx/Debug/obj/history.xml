@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\USART xbee Tx\cmsis_lib -I..\..\..\workspace -I..\..\..\workspace\USART xbee Tx\cmsis_lib\include -I..\..\..\workspace\USART xbee Tx\cmsis_boot -I..\..\..\workspace\USART xbee Tx -I..\..\..\workspace\USART xbee Tx\cmsis">
+      <target file="stm32f4xx_rcc.o" lastModified="15c3b4d7a1f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15c3a9be74b"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15c3b4d7b75">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15c3a9be6c7"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="15c3b4d7ad3">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15c3a9be679"/>
+      </target>
+      <target file="main.o" lastModified="15c40c8a140">
+         <source file="..\..\..\main.c" lastModified="15c40c89e00"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="15c3b4d781f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15c3a9c0e14"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15c3b4d78a3">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15c3a9be696"/>
+      </target>
+   </processor>
+</history>

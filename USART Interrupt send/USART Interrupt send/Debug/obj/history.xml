@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\USART Interrupt send\cmsis_lib -I..\..\..\workspace -I..\..\..\workspace\USART Interrupt send -I..\..\..\workspace\USART Interrupt send\cmsis_lib\include -I..\..\..\workspace\USART Interrupt send\cmsis -I..\..\..\workspace\USART Interrupt send\cmsis_boot -I..\..\..\..\..\Users\Vibhuti Singhania -I..\..\..\..\..\Users\Vibhuti Singhania\Downloads -I..\..\..\..\..\Users">
+      <target file="stm32f4xx_gpio.o" lastModified="15c26eeef12">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15c26a768e6"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15c26eeefb1">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15c26a76282"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15c26eeeab2">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15c26a7622f"/>
+      </target>
+      <target file="tm_stm32f4_gpio.o" lastModified="15c26eef1c5">
+         <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\tm_stm32f4_gpio.c" lastModified="15c16b364c1"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="15c26eee917">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15c26a79f38"/>
+      </target>
+      <target file="main.o" lastModified="15c3614425d">
+         <source file="..\..\..\main.c" lastModified="15c36143d9b"/>
+      </target>
+      <target file="tm_stm32f4_usart.o" lastModified="15c26eeed22">
+         <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\tm_stm32f4_usart.c" lastModified="15c26e5e5f5"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="15c26eef079">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="15c26e51c23"/>
+      </target>
+      <target file="tm_stm32f4_spi.o" lastModified="15c30d00a44">
+         <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\tm_stm32f4_spi.c" lastModified="15c16b37c72"/>
+      </target>
+      <target file="tm_stm32f4_nrf24l01.o" lastModified="15c30d00718">
+         <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\tm_stm32f4_nrf24l01.c" lastModified="15c16b99bd6"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15c26eeec38">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15c26a7620a"/>
+      </target>
+      <target file="misc.o" lastModified="15c26eef114">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15c26a7951f"/>
+      </target>
+   </processor>
+</history>

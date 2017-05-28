@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407IG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\TIMER -I..\..\..\workspace\TIMER\cmsis_boot -I..\..\..\workspace\TIMER\cmsis -I..\..\..\workspace\TIMER\cmsis_lib -I..\..\..\workspace -I..\..\..\workspace\TIMER\cmsis_lib\include">
+      <target file="stm32f4xx_tim.o" lastModified="15aec0bbe57">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15aebcef856"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15aec0bbbd7">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15aebbd760c"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15aec0bbd2e">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15aebbd764b"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="15aec0bbc92">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15aebbf2e57"/>
+      </target>
+      <target file="main.o" lastModified="15b018dbb65">
+         <source file="..\..\..\main.c" lastModified="15aeced97dd"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15aec0bba50">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15aebbd761c"/>
+      </target>
+   </processor>
+</history>

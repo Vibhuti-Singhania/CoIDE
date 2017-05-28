@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407IG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_Device_Library\Core -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_Device_Library\Class\audio\inc -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_Device_Library\Class\cdc -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_HOST_Library -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_Device_Library\Class -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_OTG_Driver\inc -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_HOST_Library\Core\inc -I..\..\..\workspace\Virtual Com Port\cmsis -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_Device_Library\Class\dfu\inc -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_HOST_Library\Class -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_Device_Library\Class\hid\inc -I..\..\..\..\..\Users\Vibhuti Singhania -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_Device_Library -I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\usb_conf -I..\..\..\workspace\Virtual Com Port\Drivers -I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\otg -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_Device_Library\Class\msc\inc -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_HOST_Library\Class\MSC\inc -I..\..\..\..\..\Users\Vibhuti Singhania\Downloads\cdc -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_HOST_Library\Class\HID\inc -I..\..\..\workspace\Virtual Com Port\cmsis_boot -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_Device_Library\Class\dfu -I..\..\..\workspace\Virtual Com Port -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_OTG_Driver -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_Device_Library\Class\hid -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_Device_Library\Core\inc -I..\..\..\workspace\Virtual Com Port\cmsis_lib -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_Device_Library\Class\cdc\inc -I..\..\..\workspace -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_HOST_Library\Class\MSC -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_HOST_Library\Class\HID -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_Device_Library\Class\audio -I..\..\..\..\..\Users\Vibhuti Singhania\Downloads -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_HOST_Library\Core -I..\..\..\workspace\Virtual Com Port\STM32F4-Discovery -I..\..\..\workspace\Virtual Com Port\Drivers\STM32_USB_Device_Library\Class\msc -I..\..\..\workspace\Virtual Com Port\cmsis_lib\include">
+      <target file="stm32f4xx_exti.o" lastModified="15be99e857a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="15be498a091"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="15be99e722f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15be47c5a4a"/>
+      </target>
+      <target file="usbd_desc.o" lastModified="15be99e6e22">
+         <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\usb_conf\usbd_desc.c" lastModified="15be4bd2d8e"/>
+      </target>
+      <target file="usbd_core.o" lastModified="15be99e636c">
+         <source file="..\..\..\Drivers\STM32_USB_Device_Library\Core\src\usbd_core.c" lastModified="15be4a0e03e"/>
+      </target>
+      <target file="usbd_cdc_core.o" lastModified="15be99e7b5e">
+         <source file="..\..\..\Drivers\STM32_USB_Device_Library\Class\cdc\src\usbd_cdc_core.c" lastModified="15be4a0dffd"/>
+      </target>
+      <target file="usbd_cdc_vcp.o" lastModified="15be99e730c">
+         <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\cdc\usbd_cdc_vcp.c" lastModified="15be4bb7598"/>
+      </target>
+      <target file="usbd_ioreq.o" lastModified="15be99e8b14">
+         <source file="..\..\..\Drivers\STM32_USB_Device_Library\Core\src\usbd_ioreq.c" lastModified="15be4a0e04d"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="15be99e52e8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="15be99857f9"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15be99e5f0d">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15be3bca27f"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15be99e748e">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15be3bca2de"/>
+      </target>
+      <target file="usb_bsp.o" lastModified="15be99e76bb">
+         <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\usb_conf\usb_bsp.c" lastModified="15be4bd2d04"/>
+      </target>
+      <target file="stm32f4_discovery.o" lastModified="15be99e5fc5">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery.c" lastModified="15be99856be"/>
+      </target>
+      <target file="misc.o" lastModified="15be99e870b">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15be4a0e16a"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="15be99e75f2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="15be4a0e116"/>
+      </target>
+      <target file="stm32f4_discovery_audio_codec.o" lastModified="15be99e59e6">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_audio_codec.c" lastModified="15be99856de"/>
+      </target>
+      <target file="usbd_req.o" lastModified="15be99e77b9">
+         <source file="..\..\..\Drivers\STM32_USB_Device_Library\Core\src\usbd_req.c" lastModified="15be4a0e04d"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="15be99e8396">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="15be9985741"/>
+      </target>
+      <target file="usb_dcd.o" lastModified="15be99e8847">
+         <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\otg\usb_dcd.c" lastModified="15be4bb74e6"/>
+      </target>
+      <target file="usb_dcd_int.o" lastModified="15be99e78b1">
+         <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\otg\usb_dcd_int.c" lastModified="15be4bb7505"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15be99e664f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15be47c5a5b"/>
+      </target>
+      <target file="stm32f4_discovery_callbacks.o" lastModified="15be99e796a">
+         <source file="..\..\..\stm32f4_discovery_callbacks.c" lastModified="15be9985712"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="15be99e5e79">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="15be9985767"/>
+      </target>
+      <target file="usb_core.o" lastModified="15be99e545b">
+         <source file="..\..\..\..\..\..\..\Users\Vibhuti Singhania\Downloads\otg\usb_core.c" lastModified="15be4bb74c0"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="15be99e84a2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="15be9985757"/>
+      </target>
+      <target file="stm32f4_discovery_lis302dl.o" lastModified="15be99e8a4c">
+         <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_lis302dl.c" lastModified="15be99856f3"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="15be99e5d08">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15be7f60d97"/>
+      </target>
+   </processor>
+</history>

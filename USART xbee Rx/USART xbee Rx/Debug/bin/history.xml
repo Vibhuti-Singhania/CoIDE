@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=USART xbee Rx.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\USART xbee Rx -TC:\CooCox\CoIDE\configuration\ProgramData\USART xbee Rx/arm-gcc-link.ld -g">
+      <target file="USART xbee Rx.elf" lastModified="15c3b5357ca">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15c3b5351f2"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15c3b53528e"/>
+         <source file="..\obj\main.o" lastModified="15c3b535334"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15c3b535418"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15c3b5354d1"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15c3b535575"/>
+      </target>
+   </processor>
+</history>

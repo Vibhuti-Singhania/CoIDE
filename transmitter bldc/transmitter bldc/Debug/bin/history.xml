@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=transmitter bldc.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\transmitter bldc -TC:\CooCox\CoIDE\configuration\ProgramData\transmitter bldc/arm-gcc-link.ld -g">
+      <target file="transmitter bldc.elf" lastModified="15c222c46f5">
+         <source file="..\obj\tm_stm32f4_nrf24l01.o" lastModified="15c221834d5"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15c1c78ef71"/>
+         <source file="..\obj\main.o" lastModified="15c222c4494"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15c1c78f166"/>
+         <source file="..\obj\tm_stm32f4_spi.o" lastModified="15c1c78f282"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15c1c78f348"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15c1c78f3ef"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="15c1c78f4cc"/>
+         <source file="..\obj\tm_stm32f4_gpio.o" lastModified="15c1c78f579"/>
+      </target>
+   </processor>
+</history>

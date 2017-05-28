@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=USART Interrupt.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\USART Interrupt -TC:\CooCox\CoIDE\configuration\ProgramData\USART Interrupt/arm-gcc-link.ld -g">
+      <target file="USART Interrupt.elf" lastModified="15c30fb29ea">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15bbfb408f2"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15bbf249c95"/>
+         <source file="..\obj\main.o" lastModified="15c30fb2782"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15bbfb40b91"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15bbfb40c41"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15bbfb40cf5"/>
+         <source file="..\obj\misc.o" lastModified="15bbfb40dac"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=usart nrf final.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\usart nrf final -TC:\CooCox\CoIDE\configuration\ProgramData\usart nrf final/arm-gcc-link.ld -g">
+      <target file="usart nrf final.elf" lastModified="15c37354d91">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15c35db3578"/>
+         <source file="..\obj\tm_stm32f4_nrf24l01.o" lastModified="15c35db36dc"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15c35db37a4"/>
+         <source file="..\obj\main.o" lastModified="15c3734e0a6"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15c35db39ee"/>
+         <source file="..\obj\tm_stm32f4_usart.o" lastModified="15c35db3adc"/>
+         <source file="..\obj\tm_stm32f4_spi.o" lastModified="15c35db3bb4"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15c35db3c8c"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15c35db3d36"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="15c35db3dfe"/>
+         <source file="..\obj\misc.o" lastModified="15c35db3ea1"/>
+         <source file="..\obj\tm_stm32f4_gpio.o" lastModified="15c35db3f5a"/>
+      </target>
+   </processor>
+</history>

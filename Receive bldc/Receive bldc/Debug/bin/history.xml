@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Receive bldc.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Receive bldc -TC:\CooCox\CoIDE\configuration\ProgramData\Receive bldc/arm-gcc-link.ld -g">
+      <target file="Receive bldc.elf" lastModified="15c36e2b674">
+         <source file="..\obj\tm_stm32f4_nrf24l01.o" lastModified="15c35d91b9c"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15c1c86620c"/>
+         <source file="..\obj\main.o" lastModified="15c36e2b377"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15c1c8663be"/>
+         <source file="..\obj\tm_stm32f4_spi.o" lastModified="15c35d91e58"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15c1c8665a7"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15c1c86664e"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="15c1c86671b"/>
+         <source file="..\obj\tm_stm32f4_gpio.o" lastModified="15c1c8667c7"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15c1c8668f8"/>
+      </target>
+   </processor>
+</history>
